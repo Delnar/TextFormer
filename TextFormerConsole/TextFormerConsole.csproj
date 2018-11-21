@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TextFormerLbrary\TextFormerLbrary.csproj">
+      <Project>{158de958-2c42-4e90-8648-16a70b00b5b2}</Project>
+      <Name>TextFormerLbrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
