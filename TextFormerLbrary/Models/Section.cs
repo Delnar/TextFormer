@@ -32,7 +32,7 @@ namespace TextFormerLbrary.Models
 
         private void SetUnformatedText(string Value)
         {
-            Lines = Value.Replace('\r\n', '\n').Split('\n').Select(x => new Line(x, this)).ToList();
+            Lines = Value.Replace("\r\n", "\n").Split('\n').Select(x => new Line(x, this)).ToList();
         }
 
         private string GetText()
